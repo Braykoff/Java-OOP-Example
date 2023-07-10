@@ -4,6 +4,14 @@ public class House {
     private int numOfDoors;
     private int size; // sq ft
 
+    // Constructor
+    public House(String owner, int numOfDoors, int size) {
+        this.owner = owner;
+        this.numOfDoors = numOfDoors;
+        this.size = size;
+        System.out.println("House has been initialized!");
+    }
+
     // Methods
     public void setDoorOpen(boolean open) {
         if (open) {
