@@ -1,5 +1,3 @@
-package java.main;
-
 public class House {
     // Properties
     private String owner;
