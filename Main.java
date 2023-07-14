@@ -6,5 +6,9 @@ public class Main {
         // Use it
         house1.setDoorOpen(true);
         house2.openWindows();
+
+        // Access variables
+        System.out.printf("House 1 is owned by: %s", house1.getOwner());
+        house1.setOwner("Someone else...");
     }
 }
