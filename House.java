@@ -12,10 +12,6 @@ public class House {
         System.out.println("House has been initialized!");
     }
 
-    // Owner setter/getter
-    public String getOwner() { return owner; }
-    public void setOwner(String newOwner) { owner = newOwner; }
-
     // Methods
     public void setDoorOpen(boolean open) {
         if (open) {
@@ -29,6 +25,11 @@ public class House {
         System.out.printf("The windows of the house owned by %s were opened!\n", owner);
     }
 
+    // Owner setter/getter
+    public String getOwner() { return owner; }
+    public void setOwner(String newOwner) { owner = newOwner; }
+
+    // getString() is pretty much a getter, so this is also at the bottom
     public String getString() {
         return String.format("House owned by %s with %d doors\n", owner, numOfDoors);
     }
