@@ -12,6 +12,10 @@ public class House {
         System.out.println("House has been initialized!");
     }
 
+    // Owner setter/getter
+    public String getOwner() { return owner; }
+    public void setOwner(String newOwner) { owner = newOwner; }
+
     // Methods
     public void setDoorOpen(boolean open) {
         if (open) {
