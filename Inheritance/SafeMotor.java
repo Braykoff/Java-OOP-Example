@@ -6,4 +6,9 @@ public class SafeMotor extends Motor {
         super(id);
     }
     
+    @Override
+    public void setSpeed(double speed) {
+        speed = Math.max(Math.min(speed, 1.0), -1.0);
+        super.setSpeed(speed);
+    }
 }
