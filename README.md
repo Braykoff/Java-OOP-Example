@@ -13,5 +13,7 @@ A list of important commits referenced throughout the tutorial:
 - [Added StaticExample.java](https://github.com/Braykoff/Java-OOP-Example/blob/3f48b2e7db1d9d7128bb3c23014e3dfe19ea88b2/StaticExample.java)
 
 ---
+[Inheritance](/Inheritance) also contains an example of object inheritance.
+---
 
-*Last modified 07/14/2023*
+*Last modified 07/18/2023*
