@@ -18,4 +18,8 @@ A list of important commits referenced throughout the tutorial:
 
 ---
 
-*Last modified 07/18/2023*
+[Example Robot Program](/Example%20Robot%20Program) also contains an example WPILib robot program.
+
+---
+
+*Last modified 07/23/2023*
